@@ -1,0 +1,5 @@
+library(ggplot2,ggmap)
+library(data.table)
+getwd()
+subway=read.csv("subway_file_merge.csv",header = T, encoding = "UTF-8")
+head(subway)

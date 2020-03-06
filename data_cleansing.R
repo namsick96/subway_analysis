@@ -42,6 +42,6 @@ subway.new$호선명#데이터 타입 확인, 변경 완료
 
 subway_final=merge(subway.new,subway_add,by.x=c("호선명","지하철역"),
                    by.y=c("호선","역명"),) #기준col 중심으로 merge
-save(subway_final,file="subway_file_merge") #save final
+save(subway_final,file="subway_file_merge.csv") #save final
 #data cleansing end
 #subway_final_merge is final processed data
